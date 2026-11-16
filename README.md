@@ -1,3 +1,4 @@
+
 # EventSphere – MERN Expo & Event Management System
 
 Pakistan's premier platform for professional expos, conferences & exhibitions.
@@ -12,7 +13,13 @@ Pakistan's premier platform for professional expos, conferences & exhibitions.
 ### 1. Backend Setup
 ```bash
 cd backend
-cp .env.example .env      # Edit with your MongoDB URI + JWT secret
 npm install
-npm run seed              # ⚠️ This wipes existing data + seeds Pakistani sample data
-npm run dev               # Runs on http://localhost:5000
+npm run dev
+```
+
+### 2. Frontend Setup
+```bash
+cd frontend
+npm install
+npm run dev
+```
